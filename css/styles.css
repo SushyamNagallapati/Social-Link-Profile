@@ -1,0 +1,137 @@
+html {
+    font-size: 62.5%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    background-color: black;
+}
+
+
+img {
+    display: flex;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    justify-self: center;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    /* background: hsl(0, 0%, 20%); */
+}
+
+button {
+    background:hsl(0, 0%, 20%);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover a {
+    color: black;
+}
+
+.container {
+    max-width: 100%;
+    width: 375px;
+    height: 100%;
+    margin: 10rem 20rem;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 1rem;
+}
+
+.name {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+.location {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: hsl(75, 94%, 57%);
+}
+
+.profession {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.profession:hover, .name:hover {
+    color: #848871;
+    transition: color 0.3s;
+}
+
+.github__button {
+    padding: 1rem 12rem;
+}
+
+.linkedin__button {
+    padding: 1rem 11.2rem;
+}
+
+.instagram__button {
+    padding: 1rem 10.4rem;
+}
+
+.github, .linkedin, .instagram {
+    justify-self: center;
+    margin: 3rem;
+    font-size: 2rem;
+}
+
+.github {
+    margin-top: 5rem;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: rgb(102, 102, 133);
+    font-weight: 800;
+    opacity: 0.5;
+    letter-spacing: 0.5px;
+}
+
+.mail {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    color: rgb(108, 115, 122);
+}
+
+.mail__link {
+    color: rgb(206, 200, 200);
+    font-weight: 250;
+    transition: color 0.3s;
+}
+
+.mail__link:hover {
+    color: #fff
+}
